@@ -1,0 +1,32 @@
+.container {
+  margin: 30px auto;
+  width: 40%;
+  height: 1cap;
+  /* box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green; */
+  /* box-shadow: 1px 5px 0px 5px  #fffccc; */
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 1px 4px 12px 1px #111000;
+}
+
+.step {
+  width: 200px;
+  background-color: #ffcc;
+  display: flex;
+  justify-content: space-between;
+}
+.step button {
+  cursor: pointer;
+}
+.counter {
+  width: 200px;
+  background-color: #ffcc;
+  display: flex;
+  justify-content: space-between;
+}
+.counter button {
+  cursor: pointer;
+}
+.message {
+  margin-top: 10px;
+}
